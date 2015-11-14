@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3F7DDE341BF7BF750090E7E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */; };
-		3F7DDE361BF7BF750090E7E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE351BF7BF750090E7E0 /* ViewController.swift */; };
 		3F7DDE391BF7BF750090E7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE371BF7BF750090E7E0 /* Main.storyboard */; };
 		3F7DDE3B1BF7BF750090E7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */; };
 		3F7DDE3E1BF7BF750090E7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE3C1BF7BF750090E7E0 /* LaunchScreen.storyboard */; };
 		3F7DDE491BF7BF750090E7E0 /* Grub_BuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE481BF7BF750090E7E0 /* Grub_BuddiesTests.swift */; };
 		3F7DDE541BF7BF750090E7E0 /* Grub_BuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE531BF7BF750090E7E0 /* Grub_BuddiesUITests.swift */; };
+		3F7DDE631BF7D5BC0090E7E0 /* bg.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */; };
+		3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */; };
+		3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		3F7DDE301BF7BF750090E7E0 /* Grub Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grub Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F7DDE351BF7BF750090E7E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F7DDE381BF7BF750090E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7DDE3D1BF7BF750090E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		3F7DDE4F1BF7BF750090E7E0 /* Grub BuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grub BuddiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7DDE531BF7BF750090E7E0 /* Grub_BuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grub_BuddiesUITests.swift; sourceTree = "<group>"; };
 		3F7DDE551BF7BF750090E7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bg.webarchive; sourceTree = "<group>"; };
+		3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		3F7DDE321BF7BF750090E7E0 /* Grub Buddies */ = {
 			isa = PBXGroup;
 			children = (
+				3F7DDE611BF7D59E0090E7E0 /* Images */,
 				3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */,
-				3F7DDE351BF7BF750090E7E0 /* ViewController.swift */,
 				3F7DDE371BF7BF750090E7E0 /* Main.storyboard */,
+				3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */,
+				3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */,
 				3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */,
 				3F7DDE3C1BF7BF750090E7E0 /* LaunchScreen.storyboard */,
 				3F7DDE3F1BF7BF750090E7E0 /* Info.plist */,
@@ -123,6 +129,14 @@
 				3F7DDE551BF7BF750090E7E0 /* Info.plist */,
 			);
 			path = "Grub BuddiesUITests";
+			sourceTree = "<group>";
+		};
+		3F7DDE611BF7D59E0090E7E0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7DDE631BF7D5BC0090E7E0 /* bg.webarchive in Resources */,
 				3F7DDE3E1BF7BF750090E7E0 /* LaunchScreen.storyboard in Resources */,
 				3F7DDE3B1BF7BF750090E7E0 /* Assets.xcassets in Resources */,
 				3F7DDE391BF7BF750090E7E0 /* Main.storyboard in Resources */,
@@ -256,7 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7DDE361BF7BF750090E7E0 /* ViewController.swift in Sources */,
+				3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */,
+				3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */,
 				3F7DDE341BF7BF750090E7E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
