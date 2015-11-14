@@ -16,6 +16,7 @@
 		3F7DDE631BF7D5BC0090E7E0 /* bg.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */; };
 		3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */; };
 		3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */; };
+		3F7DDE6B1BF7F1420090E7E0 /* ChatNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bg.webarchive; sourceTree = "<group>"; };
 		3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 		3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
+		3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3F7DDE611BF7D59E0090E7E0 /* Images */,
 				3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */,
 				3F7DDE371BF7BF750090E7E0 /* Main.storyboard */,
+				3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */,
 				3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */,
 				3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */,
 				3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */,
+				3F7DDE6B1BF7F1420090E7E0 /* ChatNavigationController.swift in Sources */,
 				3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */,
 				3F7DDE341BF7BF750090E7E0 /* AppDelegate.swift in Sources */,
 			);

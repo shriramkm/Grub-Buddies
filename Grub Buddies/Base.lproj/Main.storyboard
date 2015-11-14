@@ -41,6 +41,9 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="95" y="323" width="210" height="54"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="1C2-Gl-Tbf" kind="show" id="PzF-e8-oOZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -76,11 +79,11 @@
             </objects>
             <point key="canvasLocation" x="1356" y="674"/>
         </scene>
-        <!--Table View Controller-->
+        <!--People List View-->
         <scene sceneID="2yo-Th-GaE">
             <objects>
-                <tableViewController id="7hV-i0-BDs" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1vq-Pn-4vh" customClass="PeopleListView" customModule="Grub_Buddies" customModuleProvider="target">
+                <tableViewController id="7hV-i0-BDs" customClass="PeopleListView" customModule="Grub_Buddies" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1vq-Pn-4vh">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -91,10 +94,6 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="7hV-i0-BDs" id="XvU-ya-acf"/>
-                            <outlet property="delegate" destination="7hV-i0-BDs" id="hT8-Vy-gob"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="C9g-aM-Fys">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="tF7-0a-ODS"/>
@@ -102,7 +101,49 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uxS-1s-K3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1354.5" y="1323"/>
+            <point key="canvasLocation" x="1356" y="1429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fFg-9k-wBw">
+            <objects>
+                <viewController id="f0J-h1-q8a" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IIR-Ca-Iuf"/>
+                        <viewControllerLayoutGuide type="bottom" id="MhN-s0-0An"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Twi-AF-RkT">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kAQ-z6-OHS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="474" width="360" height="113"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="kAQ-z6-OHS"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="kAQ-z6-OHS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="FxO-3i-U0z">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="FFh-85-Eu5"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nsd-Hg-fbp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2274" y="2111"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oRy-T7-puO">
@@ -120,7 +161,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L6N-sE-nz4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="436.5" y="1323"/>
+            <point key="canvasLocation" x="402" y="1429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kwZ-IC-tez">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dhL-9I-0bL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Fl-p8-uwI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f0J-h1-q8a" kind="relationship" relationship="rootViewController" id="WxT-7D-bP6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzs-j0-4Il" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356" y="2111"/>
         </scene>
     </scenes>
     <resources>
