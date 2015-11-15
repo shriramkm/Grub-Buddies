@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F7DDE341BF7BF750090E7E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */; };
-		3F7DDE391BF7BF750090E7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE371BF7BF750090E7E0 /* Main.storyboard */; };
 		3F7DDE3B1BF7BF750090E7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */; };
 		3F7DDE3E1BF7BF750090E7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE3C1BF7BF750090E7E0 /* LaunchScreen.storyboard */; };
 		3F7DDE491BF7BF750090E7E0 /* Grub_BuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE481BF7BF750090E7E0 /* Grub_BuddiesTests.swift */; };
@@ -17,6 +16,9 @@
 		3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */; };
 		3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */; };
 		3F7DDE6B1BF7F1420090E7E0 /* ChatNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */; };
+		3F7DDE6D1BF809180090E7E0 /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE6C1BF809180090E7E0 /* steve.jpg */; };
+		3F7DDE6F1BF82CAB0090E7E0 /* NearestLocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DDE6E1BF82CAB0090E7E0 /* NearestLocationsController.swift */; };
+		3F7DDE721BF832D60090E7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DDE701BF832D60090E7E0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 /* Begin PBXFileReference section */
 		3F7DDE301BF7BF750090E7E0 /* Grub Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grub Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F7DDE381BF7BF750090E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7DDE3D1BF7BF750090E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7DDE3F1BF7BF750090E7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 		3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 		3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatNavigationController.swift; sourceTree = "<group>"; };
+		3F7DDE6C1BF809180090E7E0 /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpg; sourceTree = "<group>"; };
+		3F7DDE6E1BF82CAB0090E7E0 /* NearestLocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearestLocationsController.swift; sourceTree = "<group>"; };
+		3F7DDE711BF832D60090E7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,12 @@
 			children = (
 				3F7DDE611BF7D59E0090E7E0 /* Images */,
 				3F7DDE331BF7BF750090E7E0 /* AppDelegate.swift */,
-				3F7DDE371BF7BF750090E7E0 /* Main.storyboard */,
+				3F7DDE6E1BF82CAB0090E7E0 /* NearestLocationsController.swift */,
 				3F7DDE6A1BF7F1420090E7E0 /* ChatNavigationController.swift */,
-				3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */,
 				3F7DDE641BF7D6A80090E7E0 /* CheckinViewController.swift */,
+				3F7DDE661BF7D8A50090E7E0 /* PeopleListView.swift */,
 				3F7DDE3A1BF7BF750090E7E0 /* Assets.xcassets */,
+				3F7DDE701BF832D60090E7E0 /* Main.storyboard */,
 				3F7DDE3C1BF7BF750090E7E0 /* LaunchScreen.storyboard */,
 				3F7DDE3F1BF7BF750090E7E0 /* Info.plist */,
 			);
@@ -137,6 +142,7 @@
 		3F7DDE611BF7D59E0090E7E0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3F7DDE6C1BF809180090E7E0 /* steve.jpg */,
 				3F7DDE621BF7D5BC0090E7E0 /* bg.webarchive */,
 			);
 			name = Images;
@@ -210,6 +216,7 @@
 				TargetAttributes = {
 					3F7DDE2F1BF7BF750090E7E0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G9EXE72759;
 					};
 					3F7DDE431BF7BF750090E7E0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -247,9 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7DDE631BF7D5BC0090E7E0 /* bg.webarchive in Resources */,
+				3F7DDE721BF832D60090E7E0 /* Main.storyboard in Resources */,
 				3F7DDE3E1BF7BF750090E7E0 /* LaunchScreen.storyboard in Resources */,
+				3F7DDE6D1BF809180090E7E0 /* steve.jpg in Resources */,
 				3F7DDE3B1BF7BF750090E7E0 /* Assets.xcassets in Resources */,
-				3F7DDE391BF7BF750090E7E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7DDE6F1BF82CAB0090E7E0 /* NearestLocationsController.swift in Sources */,
 				3F7DDE651BF7D6A80090E7E0 /* CheckinViewController.swift in Sources */,
 				3F7DDE6B1BF7F1420090E7E0 /* ChatNavigationController.swift in Sources */,
 				3F7DDE671BF7D8A50090E7E0 /* PeopleListView.swift in Sources */,
@@ -313,20 +322,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F7DDE371BF7BF750090E7E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F7DDE381BF7BF750090E7E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F7DDE3C1BF7BF750090E7E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3F7DDE3D1BF7BF750090E7E0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7DDE701BF832D60090E7E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7DDE711BF832D60090E7E0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Grub Buddies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.2366portlanders.Grub-Buddies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Grub Buddies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.2366portlanders.Grub-Buddies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
